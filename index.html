@@ -19,7 +19,7 @@
 
 	map.addLayer(new L.TileLayer('http://{s}.tile2.opencyclemap.org/transport/{z}/{x}/{y}.png'));	//base layer
 
-	map.addControl( new L.Control.Gps() );//inizialize control
+	map.addControl( new L.Control.Gps({autoActive: true, autoTracking: true}) );//inizialize control
 
 </script>
 </body>
